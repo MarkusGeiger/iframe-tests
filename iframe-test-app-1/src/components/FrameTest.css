@@ -1,0 +1,10 @@
+.iframe-frame {
+  width: 600px;
+  height: 600px
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  border: none; 
+}

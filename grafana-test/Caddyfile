@@ -1,0 +1,9 @@
+http://localhost {
+  handle /grafana/* {
+    reverse_proxy http://host.docker.internal:3333
+  }
+
+  handle {
+    reverse_proxy http://host.docker.internal:5173
+  }
+}
